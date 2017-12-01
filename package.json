@@ -1,0 +1,23 @@
+{
+    "name": "fis3-hook-babel-imweb",
+    "version": "1.0.0",
+    "description": "a fis3 hook plugin for babel check and using fis3-parser-babel-imweb to transform code",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/imweb/fis3-hook-babel-imweb.git"
+    },
+    "keywords": ["babel", "fis", "plugin"],
+    "author": "long",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/imweb/fis3-hook-babel-imweb/issues"
+    },
+    "homepage": "https://github.com/imweb/fis3-hook-babel-imweb#readme",
+    "dependencies": {
+        "fis3-parser-babel-imweb": "^0.1.0"
+    }
+}
