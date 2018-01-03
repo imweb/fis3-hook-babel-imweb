@@ -29,7 +29,7 @@ fis.hook('babel-imweb', {
 ## options
 * `defaultCheckRegList` [Array]: 默认正则检测列表，默认值为
 ``` javascript
-[/useES6:\s*true/, /\s(import\s|let\s+\w+\s*(;|=|\s*[\r\n\f])|=>\s*\{|`[^`]*\$\{[^`}]+\}[^`]*`|const\s+\w+\s*=|class\s+\w+\s+(extends\s+\w+\s+)?\{|export\s)/]
+[/useES6:\s*true/, /^\s*(import|const|let|export)\s|=>\s*\{|[^"']`[^`]*\$\{[^`}]+\}[^`]*`|\sclass\s+\w+\s+(extends\s+\w+\s+)?\{/m]
 ```
 默认检测 es6 语法：`const`, `let`, `import`, `export`, `class`, `=>`, &#0096;&#0096;<br>
 还检测了 `useES6: true`，可以在文件头注释里面添加这个强制编译

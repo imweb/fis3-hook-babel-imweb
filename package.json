@@ -1,6 +1,6 @@
 {
     "name": "fis3-hook-babel-imweb",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "a fis3 hook plugin for babel check and using fis3-parser-babel-imweb to transform code",
     "main": "index.js",
     "scripts": {

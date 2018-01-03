@@ -7,7 +7,7 @@
 
 var babelIMWeb = require('fis3-parser-babel-imweb');
 var defaults = {
-    defaultCheckRegList: [/useES6:\s*true/, /\s(import\s|let\s+\w+\s*(;|=|\s*[\r\n\f])|=>\s*\{|`[^`]*\$\{[^`}]+\}[^`]*`|const\s+\w+\s*=|class\s+\w+\s+(extends\s+\w+\s+)?\{|export\s)/],
+    defaultCheckRegList: [/useES6:\s*true/, /^\s*(import|const|let|export)\s|=>\s*\{|[^"']`[^`]*\$\{[^`}]+\}[^`]*`|\sclass\s+\w+\s+(extends\s+\w+\s+)?\{/m],
     checkRegList: [],
     defaultCheckFnList: [],
     checkFnList: [],
